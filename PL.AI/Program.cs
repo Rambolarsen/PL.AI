@@ -2,8 +2,8 @@
 using System.Text;
 
 
-const string GPT4V_ENDPOINT = "https://bbr-chat.openai.azure.com/openai/deployments/gpt4-vision/chat/completions?api-version=2023-07-01-preview";
-string GPT4V_KEY = "d9376b02410346609951251ff621a313";
+const string GPT4V_ENDPOINT = null;
+string GPT4V_KEY = null;
 string IMAGE_PATH = args[0];
 var encodedImage = Convert.ToBase64String(File.ReadAllBytes(IMAGE_PATH));
 
